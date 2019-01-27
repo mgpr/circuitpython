@@ -337,6 +337,9 @@ SRC_COMMON_HAL = \
 	audioio/AudioOut.c \
 	touchio/__init__.c \
 	touchio/TouchIn.c \
+	genclk/__init__.c \
+	genclk/genclk.c \
+
 
 ifeq ($(INTERNAL_LIBM),1)
 SRC_LIBM = $(addprefix lib/,\

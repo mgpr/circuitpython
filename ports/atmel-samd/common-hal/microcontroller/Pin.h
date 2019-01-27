@@ -65,6 +65,7 @@ typedef struct {
     uint8_t adc_input[NUM_ADC_PER_PIN];
     pin_timer_t timer[NUM_TIMERS_PER_PIN];
     pin_sercom_t sercom[NUM_SERCOMS_PER_PIN];
+    uint8_t clock;
 } mcu_pin_obj_t;
 
 #ifdef MICROPY_HW_NEOPIXEL
