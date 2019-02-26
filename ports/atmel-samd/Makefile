@@ -339,6 +339,12 @@ SRC_COMMON_HAL = \
 	touchio/TouchIn.c \
 	genclk/__init__.c \
 	genclk/genclk.c \
+	portio/__init__.c \
+	portio/portio.c \
+	fastadc/__init__.c \
+	fastadc/fastadc.c \
+
+
 
 
 ifeq ($(INTERNAL_LIBM),1)
@@ -376,7 +382,8 @@ SRC_BINDINGS_ENUMS = \
 	help.c \
 	math/__init__.c \
 	supervisor/__init__.c \
-	util.c
+	util.c \
+	portio/port.c \
 
 SRC_COMMON_HAL_EXPANDED = $(addprefix shared-bindings/, $(SRC_COMMON_HAL)) \
                           $(addprefix shared-bindings/, $(SRC_BINDINGS_ENUMS)) \
