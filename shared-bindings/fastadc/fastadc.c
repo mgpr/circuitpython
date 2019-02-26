@@ -39,10 +39,10 @@
 
 //| .. currentmodule:: fastadc
 //|
-//| :class:`fastadc` -- Analog to digital conversions at variable sample rate
+//| :class:`fastadc` -- Analog to digital conversions at variable user-defined sample rate
 //| =============================================
 //|
-//|	fastadc can be used to perform a series of 8-bit ADC at variable sample rate (max 360 kbps).
+//|	fastadc can be used to perform a series of 8-bit ADC at variable user-defined sample rate (max 360 kbps).
 //|
 //| Usage::
 //|
